@@ -1,0 +1,14 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "airbnb",
+      "airbnb/hooks",
+      "airbnb-typescript",
+      "plugin:@next/next/recommended"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
