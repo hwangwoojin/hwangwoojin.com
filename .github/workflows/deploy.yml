@@ -26,6 +26,6 @@ jobs:
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: sh deploy.sh
-          privateKey: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.SSH_KEY }}
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
