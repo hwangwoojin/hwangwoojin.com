@@ -20,11 +20,16 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: SSH Remote Commands
-        uses: appleboy/ssh-action@v0.1.4
+      - name: Run SSH command
+        uses: easingthemes/ssh-deploy@main
         with:
+          # Command to execute on the remote server.
+          command: sh deploy.sh
+          # Hostname or IP address of the server.
           host: ${{ secrets.HOST }}
+          # Username for authentication.
           username: ${{ secrets.USER }}
-          key: ${{ secrets.KEY }}
+          # Port number of the server.
           port: ${{ secrets.PORT }}
-          script: sh deploy.sh
+          # File Location or string that contains a private key for either key-based or hostbased user authentication (OpenSSH format)
+          key: ${{ secrets.KEY }}
