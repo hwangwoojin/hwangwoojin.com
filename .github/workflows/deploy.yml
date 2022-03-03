@@ -21,7 +21,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Run SSH command
-        uses: easingthemes/ssh-deploy@main
+        uses: garygrossgarten/github-action-ssh@release
         with:
           # Command to execute on the remote server.
           command: sh deploy.sh
