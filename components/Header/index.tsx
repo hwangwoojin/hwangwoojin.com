@@ -34,7 +34,7 @@ export default function Header() {
           <Link href="https://github.com/hwangwoojin" passHref>
             <a>
               <Image
-                src="/image/icons8-github-36.svg"
+                src="/svg/icons8-github-36.svg"
                 alt="github logo"
                 width="36"
                 height="36"
@@ -44,7 +44,7 @@ export default function Header() {
         </li>
         <li>
           <Image
-            src="/image/dark_mode_black_36dp.svg"
+            src="/svg/dark_mode_black_36dp.svg"
             alt="darkmode toggle"
             width="36"
             height="36"
