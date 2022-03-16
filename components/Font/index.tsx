@@ -15,6 +15,11 @@ export default function Font() {
         rel="preload"
         as="style"
       />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&display=optional"
+        rel="preload"
+        as="style"
+      />
     </>
   );
 }
