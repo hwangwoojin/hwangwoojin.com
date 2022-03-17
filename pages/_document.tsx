@@ -10,7 +10,6 @@ import Document, {
 import { ServerStyleSheet } from 'styled-components';
 
 import Favicon from '@/components/Favicon';
-import Font from '@/components/Font';
 
 export default class MyDocument extends Document {
   static async getInitialProps(
@@ -46,7 +45,6 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <Favicon />
-          <Font />
         </Head>
         <body>
           <Main />

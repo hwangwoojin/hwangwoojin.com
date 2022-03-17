@@ -1,5 +1,23 @@
+@font-face {
+    font-family: "Nanum Gothic Coding";
+    src: url("/font/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Nanum Gothic Coding";
+    src: url("/font/Nanum_Gothic_Coding/NanumGothicCoding-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Nanum Pen Script";
+    src: url("/font/Nanum_Pen_Script/NanumPenScript-Regular.ttf");
+    font-weight: 400;
+}
+
 body {
-    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: "Nanum Gothic Coding", monospace;
 }
 
 a {
